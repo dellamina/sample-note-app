@@ -1,0 +1,39 @@
+body{
+    background:url(../img/bgbody.png);
+}
+.main{
+    margin-top:2.5rem;
+}
+.collection{
+    background: white;
+}
+.modal.small{
+    width:40%;
+}
+.modal .modal-content .row{
+    margin-bottom: 0px;
+}
+.fixed-action-btn.horizontal.desktop{
+    position: absolute;
+    display: inline-block;
+    right: 0px;
+}
+.fixed-action-btn.mobile{
+    top: 23px;
+}
+.relative{
+    position: relative;
+}
+@media only screen and (max-width: 600px) {
+    .modal .modal-content {
+        padding: 18px;
+    }
+    .main{
+        margin-top:1.75rem;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .modal, .modal.small {
+        width: 96%;
+    }
+}
