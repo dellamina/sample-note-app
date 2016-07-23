@@ -9,21 +9,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     
-    <link type="text/css" rel="stylesheet" href="static/css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="<?=base_url();?>static/css/materialize.min.css"  media="screen,projection"/>
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="static/js/jquery-3.0.0.min.js"></script>
-    <script type="text/javascript" src="static/js/materialize.min.js"></script>
+    <script type="text/javascript" src="<?=base_url();?>static/js/jquery-3.0.0.min.js"></script>
+    <script type="text/javascript" src="<?=base_url();?>static/js/materialize.min.js"></script>
     <style>
         .btn-block{
             width:100%;
         }
+        body.login{
+            background:url("<?=base_url();?>static/img/bg.png");
+        }
     </style>
 </head>
-<body class="grey darken-4">
+<body class="login">
 
 <div class="container">
     

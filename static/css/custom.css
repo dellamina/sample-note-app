@@ -1,6 +1,9 @@
 body{
     background:url(../img/bgbody.png);
 }
+.btn-block{
+    width:100%;
+}
 .main{
     margin-top:2.5rem;
 }
