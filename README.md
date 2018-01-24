@@ -2,7 +2,7 @@
 A small application I decide to make using Codeigniter and MaterializeCSS.
 The project is to made the same application with the same feature using different technologies all the time.
 
-##Installation
+## Installation
 * clone this repo inside a fresh installation of Codeigniter (3.0.6),
 * import the dump of the database (I included the create schema ;)),
 * update application/config/database.php with your credential to acces the db and also config.php the base url property,
